@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lizrodrigues.github.io/test/annotations/to-the-lighthouse-part-1-canvas-1-metadata.json",
+  "type": "AnnotationPage",
+  "label": "metadata",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "to-the-lighthouse-part-1-canvas-1-metadata-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Opening information",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://lizrodrigues.github.io/test/to-the-lighthouse-part-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.0,17.0"
+        }
+      }
+    }
+  ]
+}

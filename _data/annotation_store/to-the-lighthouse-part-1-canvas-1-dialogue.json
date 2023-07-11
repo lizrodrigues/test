@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lizrodrigues.github.io/test/annotations/to-the-lighthouse-part-1-canvas-1-dialogue.json",
+  "type": "AnnotationPage",
+  "label": "dialogue",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "to-the-lighthouse-part-1-canvas-1-dialogue-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Opening sentence, Mrs. Ramsay. ",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "dialogue",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": "https://lizrodrigues.github.io/test/to-the-lighthouse-part-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "26.0,33.0"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lizrodrigues.github.io/test/annotations/to-the-lighthouse-part-1-canvas-1-things--sounds.json",
+  "type": "AnnotationPage",
+  "label": "things, sounds",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "to-the-lighthouse-part-1-canvas-1-things--sounds-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "List of objects and sounds imbued with emotion by James.",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "things",
+          "format": "text/plain",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "sounds",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": "https://lizrodrigues.github.io/test/to-the-lighthouse-part-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "93.0,120.0"
+        }
+      }
+    }
+  ]
+}

@@ -23,6 +23,32 @@
         "id": "https://lizrodrigues.github.io/test/to-the-lighthouse-part-1/canvas-1/canvas",
         "type": "Canvas",
         "duration": 1768.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://lizrodrigues.github.io/test/annotations/to-the-lighthouse-part-1-canvas-1-metadata.json",
+            "label": {
+              "none": ["metadata"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://lizrodrigues.github.io/test/annotations/to-the-lighthouse-part-1-canvas-1-things--sounds.json",
+            "label": {
+              "none": ["things, sounds"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://lizrodrigues.github.io/test/annotations/to-the-lighthouse-part-1-canvas-1-dialogue.json",
+            "label": {
+              "none": ["dialogue"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://lizrodrigues.github.io/test/to-the-lighthouse-part-1/canvas-1/paintings",
